@@ -9,9 +9,16 @@
 4. See preprocessing file `1_preprocessing.ipynb`
 
 
-## Contact
+## Label encoding 
 
-If you have any questions or want to use the code, please contact `yoontae@unist.ac.kr`.
+1. income_type : `['EARNEDINCOME' 'EARNEDINCOME2' 'FREELANCER' 'OTHERINCOME' 'PRACTITIONER' 'PRIVATEBUSINESS']`
+
+2. employment_type : `['계약직' '기타' '일용직' '정규직']`
+
+3. houseown_type : `['기타가족소유' '배우자' '자가' '전월세']`
+
+4. purpose : `['기타' '대환대출' '사업자금' '생활비' '자동차구입' '전월세보증금' '주택구입' '투자']`
+
 
 ## Acknowledgement
 
