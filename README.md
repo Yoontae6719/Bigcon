@@ -22,8 +22,14 @@
 ## Base train test split
 
 `from sklearn.model_selection import train_test_split`
+
 `train, val = train_test_split(full_data, test_size=0.20,   random_state=20205289,  stratify=full_data['is_applied'])`
+
 `train, test = train_test_split(train, test_size=0.125,   random_state=20205289,  stratify=train['is_applied'])`
+
 `train.to_csv("./prepro_data/train.csv", index = False)`
+
 `val.to_csv("./prepro_data/val.csv", index = False)`
+
 `test.to_csv("./prepro_data/test.csv", index = False)`
+
