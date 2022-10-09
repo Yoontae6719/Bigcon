@@ -1,5 +1,38 @@
 # BIGCONTEST CODE
 
+## Notice
+
+You ***MUST*** Create the following folders in advance.
+- [x] data
+- [x] prepro_data
+- [x] DL_dataset
+
+The `data folder` requires the ***loan_result.csv***, ***log_data.csv***, and ***user_spec.csv*** files. \
+When you run `1_preprocessing_real.ipynb`, the preprocessed file is stored in the `prepro_data folder` in the following two forms:
+- [x] full_data.csv
+- [x] submit_test.csv 
+
+
+full_data.csv means a dataset for learning before June and a dataset for submit_test.csv means a dataset for testing after June.
+
+
+
+Next, when `2_Preprocessing_2.ipynb` and `3_Preprocessing_3.ipynb` are runed, the data on the user's behavior is reflected in ***loon_result.csv***. At this time, ray was used for parallel processing. The reflected results are similarly stored in the `prepro_data folder` as `full_data.csv` and `submit_test.csv`.
+
+Thired, by runing `4_Preprocessing_4.ipynb`, continuous variables are converted into categorical variables and stored in a `dataset folder`. The stored data sets are as follows.
+- [x] full_data.csv
+- [x] submit_test.csv 
+
+Finally, a dataset for deep learning is configured by executing `6_DL_models_inputs.ipynb`. The following data is stored in the `DL_dataset`.
+- [x] fold_0.csv
+- [x] fold_1.csv
+- [x] fold_2.csv
+- [x] fold_3.csv
+- [x] fold_4.csv
+- [x] train.csv
+- [x] test.csv
+
+Through deep learning, all results are stored in `DL_dataset`.
 
 ## Get Started
 
@@ -12,14 +45,18 @@
 - [x] 3_Preprocessing_3.ipynb
 - [x] 4_Preprocessing_4.ipynb
 - [x] 6_DL_models_inputs.ipybn
-5. To run the ML model, run the following jupyter notebook.
+5. To run the ML model, run the following jupyter notebook. The weights of all models can be downloaded from the following Google drive.
+
 - [x] 5_test_modeling-ACC-ALL.ipynb
-6. Train the model. We provide the experiment scripts of all benchmarks under the folder `./runfile`. You can reproduce the experiment results by:
+6. Train the model. We provide the experiment scripts of all benchmarks under the folder `./runfile`. The weights of Deep learning can be downloaded from the `checkpoints.zip folder`. You can reproduce the experiment results by:
 ```bash
 bash ./runfile/big_1.sh
 ```
-7. if you want save the result file in submit folder.
-8.
+
+7. For machine learning and deep learning models, run Voting enamble 7_ML_DL_model_output.ipybn. All results are stored in the `submit folder`.
+
+8. Run 8_Clustering.ipynb for clustering results. All results are stored in the `submit folder`
+
 
 ## Contact
 
