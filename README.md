@@ -1,5 +1,12 @@
 # BIGCONTEST CODE
 
+
+## Results
+
+- The results for the forecast after June can be found at the following Google Drive link: [Google Drive](https://drive.google.com/drive/folders/17p9EDoJe_3AdiCIrTWRsN57S32CtrocY?usp=sharing)
+- [x] test.csv
+- [x] cluster_user.csv 
+
 ## Notice
 
 You ***MUST*** Create the following folders in advance.
@@ -11,7 +18,6 @@ The `data folder` requires the ***loan_result.csv***, ***log_data.csv***, and **
 When you run `1_preprocessing_real.ipynb`, the preprocessed file is stored in the `prepro_data folder` in the following two forms:
 - [x] full_data.csv
 - [x] submit_test.csv 
-
 
 full_data.csv means a dataset for learning before June and a dataset for submit_test.csv means a dataset for testing after June.
 
@@ -45,7 +51,7 @@ Through deep learning, all results are stored in `DL_dataset`.
 - [x] 3_Preprocessing_3.ipynb
 - [x] 4_Preprocessing_4.ipynb
 - [x] 6_DL_models_inputs.ipybn
-5. To run the ML model, run the following jupyter notebook. The weights of all models can be downloaded from the following Google drive.
+5. To run the ML model, run the following jupyter notebook. The weights of all models can be downloaded from the following Google drive Link : [Google Drive](https://drive.google.com/file/d/1-sMeVVD-MjW48fmO6xdK0SVV-6sGutOn/view?usp=sharing)
 
 - [x] 5_test_modeling-ACC-ALL.ipynb
 6. Train the model. We provide the experiment scripts of all benchmarks under the folder `./runfile`. The weights of Deep learning can be downloaded from the `checkpoints.zip folder`. You can reproduce the experiment results by:
@@ -56,6 +62,7 @@ bash ./runfile/big_1.sh
 7. For machine learning and deep learning models, run Voting enamble 7_ML_DL_model_output.ipybn. All results are stored in the `submit folder`.
 
 8. Run 8_Clustering.ipynb for clustering results. All results are stored in the `submit folder`
+
 
 
 ## Contact
