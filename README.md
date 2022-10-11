@@ -1,6 +1,11 @@
 # BIGCONTEST CODE
 
 
+## Overview
+
+![image](https://user-images.githubusercontent.com/87846187/195023245-b59ced62-367c-4067-8090-be344bab5357.png)
+
+
 ## Results
 
 - The results for the forecast after June can be found at the following Google Drive link: [Google Drive](https://drive.google.com/drive/folders/17p9EDoJe_3AdiCIrTWRsN57S32CtrocY?usp=sharing)
@@ -72,9 +77,21 @@ bash ./runfile/big_1.sh
 
 ### Models
 
+- We construct a final model with an ensemble of machine learning models and deep learning models. 
+
+
 ![image](https://user-images.githubusercontent.com/87846187/195022823-44a2d855-b8d8-4b66-af76-5d84f548a5d1.png)
 
 ![image](https://user-images.githubusercontent.com/87846187/195022926-cc0fc4b7-e881-40eb-b019-09b8c736e665.png)
+
+
+### Clustering
+
+- Clustering was conducted from the Embedding vector extracted from deep learning, and an evaluation index based on cumulative probability distribution was created to find the optimal cluster from the Embedding vector of high dimensions.
+
+
+![image](https://user-images.githubusercontent.com/87846187/195023653-3deede11-55e0-41bd-8b55-436629178e71.png)
+
 
 ## Contact
 
