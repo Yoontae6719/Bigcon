@@ -49,8 +49,9 @@ Through deep learning, all results are stored in `DL_dataset`.
 
 1. Install Python 3.8. (i.g, Create environment ***conda create -n bigcon python=3.8***)
 2. Download data. (first, you must be load data in ./data folder)
-3. Download requirement packages ***pip install -r requirements.txt*** 
-3. Download Autogolun packages ***pip3 install autogluon*** you can use GPU mode See the [link](https://auto.gluon.ai/stable/install.html). 
+3-1. Download requirement packages ***pip install -r requirements.txt*** 
+3-2. Download Autogolun packages ***pip3 install autogluon*** you can use GPU mode See the [link](https://auto.gluon.ai/stable/install.html).
+3-3. Download Ray package for preprocessing ***pip install ray*** 
 4. For the preprocessing process, run five jupyer notes as follows.
 - [x] 1_preprocessing_real.ipynb
 - [x] 2_Preprocessing_2.ipynb 
