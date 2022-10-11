@@ -19,7 +19,7 @@ You ***MUST*** Create the following folders in advance.
 - [x] prepro_data
 - [x] DL_dataset
 
-The `data folder` requires the ***loan_result.csv***, ***log_data.csv***, and ***user_spec.csv*** files. \
+The `data folder` requires the ***loan_result.csv***, ***log_data.csv***, and ***user_spec.csv*** files. Google Drive : [Link](https://drive.google.com/file/d/1UNViyS4iHeTkAAR9yO9iwB5zrQKuf4w3/view?usp=sharing)  \
 When you run `1_preprocessing_real.ipynb`, the preprocessed file is stored in the `prepro_data folder` in the following two forms:
 - [x] full_data.csv
 - [x] submit_test.csv 
