@@ -12,6 +12,8 @@
 - [x] test.csv
 - [x] cluster_user.csv 
 
+- If you want the final result file (test.csv) to create the same application id, product id as the test set for submission, run the Jupiter notebook as follows. `9_select_the_submit_data.ipynb`
+
 ## Notice
 
 You ***MUST*** Create the following folders in advance.
