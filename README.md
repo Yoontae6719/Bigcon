@@ -70,6 +70,11 @@ bash ./runfile/big_1.sh
 - [x] cluster_user.csv 
 
 
+### Models
+
+![image](https://user-images.githubusercontent.com/87846187/195022823-44a2d855-b8d8-4b66-af76-5d84f548a5d1.png)
+
+![image](https://user-images.githubusercontent.com/87846187/195022926-cc0fc4b7-e881-40eb-b019-09b8c736e665.png)
 
 ## Contact
 
