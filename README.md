@@ -8,8 +8,8 @@
 
 ## Results
 
-- The results for the forecast after June can be found at the following Google Drive link: [Google Drive](https://drive.google.com/drive/folders/17p9EDoJe_3AdiCIrTWRsN57S32CtrocY?usp=sharing)
-- [x] test.csv
+- The results for the forecast after June can be found at the following Google Drive link: [Google Drive](https://drive.google.com/file/d/1GulS4_wah_pz9PiMQ9i2hTHOQK-z9wW2/view?usp=sharing)
+- [x] test.csv == 데이터분석분야_퓨처스부분_이용재와아이들_평가데이터.csv
 - [x] cluster_user.csv 
 
 - If you want the final result file (test.csv) to create the same application id, product id as the test set for submission, run the Jupiter notebook as follows. `9_select_the_submit_data.ipynb`
@@ -74,9 +74,12 @@ bash ./runfile/big_1.sh
 
 ## Results
 
-- The results for the forecast after June can be found at the following Google Drive link: [Google Drive](https://drive.google.com/drive/folders/17p9EDoJe_3AdiCIrTWRsN57S32CtrocY?usp=sharing)
-- [x] test.csv
+
+- The results for the forecast after June can be found at the following Google Drive link: [Google Drive](https://drive.google.com/file/d/1GulS4_wah_pz9PiMQ9i2hTHOQK-z9wW2/view?usp=sharing)
+- [x] test.csv == 데이터분석분야_퓨처스부분_이용재와아이들_평가데이터.csv
 - [x] cluster_user.csv 
+
+- If you want the final result file (test.csv) to create the same application id, product id as the test set for submission, run the Jupiter notebook as follows. `9_select_the_submit_data.ipynb`
 
 
 ### Models
