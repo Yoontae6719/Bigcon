@@ -8,7 +8,7 @@
 
 ## Results
 
-- The results for the forecast after June can be found at the following Google Drive link: [Google Drive](https://drive.google.com/file/d/1GulS4_wah_pz9PiMQ9i2hTHOQK-z9wW2/view?usp=sharing)
+- The results for the forecast after June can be found at the following Google Drive link: [Google Drive](https://drive.google.com/drive/folders/17p9EDoJe_3AdiCIrTWRsN57S32CtrocY?usp=sharing)
 - [x] test.csv == 데이터분석분야_퓨처스부분_이용재와아이들_평가데이터.csv
 - [x] cluster_user.csv 
 
